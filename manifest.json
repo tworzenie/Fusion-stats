@@ -1,0 +1,10 @@
+{
+  "name": "Fusion Stats",
+  "short_name": "Fusion Stats",
+  "description": "Budowanie postaci z bazy statystyk 0–100",
+  "start_url": "./fusion_stats_app.html",
+  "display": "standalone",
+  "background_color": "#f2f6fa",
+  "theme_color": "#173f63",
+  "icons": []
+}

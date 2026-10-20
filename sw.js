@@ -1,0 +1,1 @@
+const CACHE='fusion-stats-v1';const FILES=['./','./fusion_stats_app.html','./manifest.json'];self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES))));self.addEventListener('fetch',e=>e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request))));
